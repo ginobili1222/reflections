@@ -10,6 +10,8 @@
 Fork是在Github服务器上的一种克隆，将原始仓库复制到自己的Github账户下，而无需将原始仓库拉回本地计算机，所用的fork都链接回原始仓库，并且更容易向原始仓库提出修改意见，所以在想对别人的代码进行修改，同时不想对原始仓库进行任何的改动时，可以使用fork。
 
 ps.Github操作流程及常用命令
+git branch <分支名> 创建新的分支
+git checkout <分之名> 检出并指向该分支
 git remote add <仓库名称origin> <url>  链接远程仓库
 git remote -v  查看远程仓库详细信息
 git pull  将远程仓库的提交拉到本地
